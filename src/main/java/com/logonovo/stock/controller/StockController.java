@@ -72,9 +72,4 @@ public class StockController {
         this.stockService.saveAll(stock, ratios, rates, cashFlows);
     }
 
-
-    private void updateAssertRatiosYear(String code, List<AssertRatio> ratios) {
-
-    }
-
 }
